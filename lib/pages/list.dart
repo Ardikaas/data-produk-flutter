@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:i_list/components/formfield.dart';
+import 'package:i_list/components/listfield.dart';
 
 class List extends StatelessWidget {
   const List({super.key});
@@ -18,7 +17,7 @@ class List extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
-                
+                ListField(namaBarang: 'Bando', harga: '2000', number: '1'),
               ],
             ),
           ),
