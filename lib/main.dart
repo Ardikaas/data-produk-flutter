@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
       home: Login(),
       routes: {
         '/list' :(context) => List(),
+        '/login' :(context) => Login(),
       },
     );
   }
